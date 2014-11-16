@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84ABE1D71A13B8950096EB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE1D61A13B8950096EB01 /* main.m */; };
+		84ABE1DA1A13B8950096EB01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE1D91A13B8950096EB01 /* AppDelegate.m */; };
+		84ABE1DC1A13B8950096EB01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ABE1DB1A13B8950096EB01 /* Images.xcassets */; };
+		84ABE1DF1A13B8950096EB01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ABE1DD1A13B8950096EB01 /* LaunchScreen.xib */; };
+		84ABE1EB1A13B8950096EB01 /* RTHCollectScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE1EA1A13B8950096EB01 /* RTHCollectScrollTests.m */; };
+		84ABE1F61A13B9040096EB01 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE1F51A13B9040096EB01 /* MainViewController.m */; };
+		84ABE1F91A13B9960096EB01 /* RTHCollectionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE1F81A13B9960096EB01 /* RTHCollectionScrollView.m */; };
+		84AE11661A17D2E2000B3791 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE11651A17D2E2000B3791 /* SettingsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84ABE1E51A13B8950096EB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ABE1C91A13B8940096EB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84ABE1D01A13B8940096EB01;
+			remoteInfo = RTHCollectScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84ABE1D11A13B8940096EB01 /* RTHCollectScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTHCollectScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABE1D51A13B8950096EB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ABE1D61A13B8950096EB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84ABE1D81A13B8950096EB01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84ABE1D91A13B8950096EB01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84ABE1DB1A13B8950096EB01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84ABE1DE1A13B8950096EB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84ABE1E41A13B8950096EB01 /* RTHCollectScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTHCollectScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABE1E91A13B8950096EB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ABE1EA1A13B8950096EB01 /* RTHCollectScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTHCollectScrollTests.m; sourceTree = "<group>"; };
+		84ABE1F41A13B9040096EB01 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		84ABE1F51A13B9040096EB01 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84ABE1F71A13B9960096EB01 /* RTHCollectionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHCollectionScrollView.h; sourceTree = "<group>"; };
+		84ABE1F81A13B9960096EB01 /* RTHCollectionScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHCollectionScrollView.m; sourceTree = "<group>"; };
+		84AE11641A17D2E2000B3791 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		84AE11651A17D2E2000B3791 /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ABE1CE1A13B8940096EB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABE1E11A13B8950096EB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84ABE1C81A13B8940096EB01 = {
+			isa = PBXGroup;
+			children = (
+				84ABE1D31A13B8950096EB01 /* RTHCollectScroll */,
+				84ABE1E71A13B8950096EB01 /* RTHCollectScrollTests */,
+				84ABE1D21A13B8950096EB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84ABE1D21A13B8950096EB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ABE1D11A13B8940096EB01 /* RTHCollectScroll.app */,
+				84ABE1E41A13B8950096EB01 /* RTHCollectScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ABE1D31A13B8950096EB01 /* RTHCollectScroll */ = {
+			isa = PBXGroup;
+			children = (
+				84ABE1F71A13B9960096EB01 /* RTHCollectionScrollView.h */,
+				84ABE1F81A13B9960096EB01 /* RTHCollectionScrollView.m */,
+				84ABE1DB1A13B8950096EB01 /* Images.xcassets */,
+				84ABE1DD1A13B8950096EB01 /* LaunchScreen.xib */,
+				84ABE1D41A13B8950096EB01 /* Supporting Files */,
+				84ABE1D81A13B8950096EB01 /* AppDelegate.h */,
+				84ABE1D91A13B8950096EB01 /* AppDelegate.m */,
+				84ABE1F41A13B9040096EB01 /* MainViewController.h */,
+				84ABE1F51A13B9040096EB01 /* MainViewController.m */,
+				84AE11641A17D2E2000B3791 /* SettingsView.h */,
+				84AE11651A17D2E2000B3791 /* SettingsView.m */,
+			);
+			path = RTHCollectScroll;
+			sourceTree = "<group>";
+		};
+		84ABE1D41A13B8950096EB01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84ABE1D51A13B8950096EB01 /* Info.plist */,
+				84ABE1D61A13B8950096EB01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84ABE1E71A13B8950096EB01 /* RTHCollectScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				84ABE1EA1A13B8950096EB01 /* RTHCollectScrollTests.m */,
+				84ABE1E81A13B8950096EB01 /* Supporting Files */,
+			);
+			path = RTHCollectScrollTests;
+			sourceTree = "<group>";
+		};
+		84ABE1E81A13B8950096EB01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84ABE1E91A13B8950096EB01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84ABE1D01A13B8940096EB01 /* RTHCollectScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ABE1EE1A13B8950096EB01 /* Build configuration list for PBXNativeTarget "RTHCollectScroll" */;
+			buildPhases = (
+				84ABE1CD1A13B8940096EB01 /* Sources */,
+				84ABE1CE1A13B8940096EB01 /* Frameworks */,
+				84ABE1CF1A13B8940096EB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTHCollectScroll;
+			productName = RTHCollectScroll;
+			productReference = 84ABE1D11A13B8940096EB01 /* RTHCollectScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84ABE1E31A13B8950096EB01 /* RTHCollectScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ABE1F11A13B8950096EB01 /* Build configuration list for PBXNativeTarget "RTHCollectScrollTests" */;
+			buildPhases = (
+				84ABE1E01A13B8950096EB01 /* Sources */,
+				84ABE1E11A13B8950096EB01 /* Frameworks */,
+				84ABE1E21A13B8950096EB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84ABE1E61A13B8950096EB01 /* PBXTargetDependency */,
+			);
+			name = RTHCollectScrollTests;
+			productName = RTHCollectScrollTests;
+			productReference = 84ABE1E41A13B8950096EB01 /* RTHCollectScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ABE1C91A13B8940096EB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = rth;
+				TargetAttributes = {
+					84ABE1D01A13B8940096EB01 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					84ABE1E31A13B8950096EB01 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 84ABE1D01A13B8940096EB01;
+					};
+				};
+			};
+			buildConfigurationList = 84ABE1CC1A13B8940096EB01 /* Build configuration list for PBXProject "RTHCollectScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84ABE1C81A13B8940096EB01;
+			productRefGroup = 84ABE1D21A13B8950096EB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ABE1D01A13B8940096EB01 /* RTHCollectScroll */,
+				84ABE1E31A13B8950096EB01 /* RTHCollectScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84ABE1CF1A13B8940096EB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABE1DF1A13B8950096EB01 /* LaunchScreen.xib in Resources */,
+				84ABE1DC1A13B8950096EB01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABE1E21A13B8950096EB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ABE1CD1A13B8940096EB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABE1F91A13B9960096EB01 /* RTHCollectionScrollView.m in Sources */,
+				84ABE1DA1A13B8950096EB01 /* AppDelegate.m in Sources */,
+				84ABE1F61A13B9040096EB01 /* MainViewController.m in Sources */,
+				84ABE1D71A13B8950096EB01 /* main.m in Sources */,
+				84AE11661A17D2E2000B3791 /* SettingsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABE1E01A13B8950096EB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABE1EB1A13B8950096EB01 /* RTHCollectScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84ABE1E61A13B8950096EB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84ABE1D01A13B8940096EB01 /* RTHCollectScroll */;
+			targetProxy = 84ABE1E51A13B8950096EB01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84ABE1DD1A13B8950096EB01 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84ABE1DE1A13B8950096EB01 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84ABE1EC1A13B8950096EB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84ABE1ED1A13B8950096EB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ABE1EF1A13B8950096EB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTHCollectScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84ABE1F01A13B8950096EB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTHCollectScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84ABE1F21A13B8950096EB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RTHCollectScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTHCollectScroll.app/RTHCollectScroll";
+			};
+			name = Debug;
+		};
+		84ABE1F31A13B8950096EB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RTHCollectScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTHCollectScroll.app/RTHCollectScroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ABE1CC1A13B8940096EB01 /* Build configuration list for PBXProject "RTHCollectScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABE1EC1A13B8950096EB01 /* Debug */,
+				84ABE1ED1A13B8950096EB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ABE1EE1A13B8950096EB01 /* Build configuration list for PBXNativeTarget "RTHCollectScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABE1EF1A13B8950096EB01 /* Debug */,
+				84ABE1F01A13B8950096EB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ABE1F11A13B8950096EB01 /* Build configuration list for PBXNativeTarget "RTHCollectScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABE1F21A13B8950096EB01 /* Debug */,
+				84ABE1F31A13B8950096EB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84ABE1C91A13B8940096EB01 /* Project object */;
+}
